@@ -67,7 +67,7 @@ drive meaningful impact.
 </div>
 
 <div align="center">
-Last Updated: <!--LAST_UPDATED-->
+<!-- Last Updated: --LAST_UPDATED-->
 
 ![footer](assets/footer.svg)
 
