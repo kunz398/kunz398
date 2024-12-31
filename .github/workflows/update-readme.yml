@@ -1,36 +1,27 @@
-name: Update README
+name: Update README with Last Updated Timestamp
 
 on:
-  repository_dispatch:
-    types: [update-readme]
-
-permissions:
-  contents: write
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch: # Allows manual runs
 
 jobs:
-  run-script:
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.12.5"
-
-      - name: Install dependencies
+      - name: Update Last Updated Timestamp
         run: |
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          TIMESTAMP=$(date -u "+%Y-%m-%d %H:%M:%S UTC")
+          sed -i "s|<!--LAST_UPDATED-->.*|<!--LAST_UPDATED--> $TIMESTAMP|g" README.md
 
-      - name: Run the Python script
-        run: python main.py
-
-      - name: Commit updated README
+      - name: Commit and Push Changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "GitHub Actions"
+          git config --local user.name "GitHub Actions Bot"
+          git config --local user.email "actions@github.com"
           git add README.md
-          git commit -m "Update README.md"
-          git push origin main
+          git commit -m "Update README with last updated timestamp"
+          git push
