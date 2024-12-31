@@ -236,7 +236,10 @@
 <path d="M2054.54 409.02V265.81L2177.91 194.58L2301.63 266.01V408.84L2177.92 480.26L2054.54 409.03V409.02ZM2058.26 267.96V406.88L2177.92 475.97L2297.91 406.7V268.17L2177.91 198.89L2058.26 267.97V267.96Z" fill="#8B8B8B"/>
 </g>
 </g>
-<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="1102.84" y="288.136">Welcome To</tspan><tspan x="988" y="433.136">My Dev World</tspan><tspan x="1256.89" y="578.136">Curated by Kunz ✨🚀</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Monospace" font-size="120" font-weight="lighter" letter-spacing="0em">
+    <tspan x="0.84" y="250.136">Welcome To</tspan>
+    <tspan x="300" y="433.136">My Dev World</tspan>
+    <tspan x="0.84" y="630.136">Curated by Kunz ✨🚀</tspan></text>
 <defs>
 <clipPath id="clip0_17_716">
 <rect width="3024.93" height="780.17" fill="white"/>
