@@ -72,7 +72,7 @@ drive meaningful impact.
 ## Support My Work
 If you enjoy what I do and would like to show your appreciation, consider buying me a coffee!
 
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](Ko-fi.com/kuzn68406)
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/kuzn68406)
 
 ![footer](assets/footer.svg)
 
