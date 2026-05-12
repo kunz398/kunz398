@@ -48,8 +48,9 @@ drive meaningful impact.
 
 ---
 ## Github Stat
+<!-- 
+![Contribution Calendar](https://ghchart.rshah.org/00bfae/kunz398) -->
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kunz398&theme=dark&hide_border=true&layout=compact&card_width=1000&title_color=adbac7&langs_count=10&hide=html&exclude_repo=your_repo_name)
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kunz398&theme=github-dark&custom_title=Kunz%27s%20Activity%20on%20GitHub%20This%20Month&hide_border=true&line=00bfae&color=ffffff&area=true&point=ffffff)
 
 
@@ -60,11 +61,14 @@ drive meaningful impact.
 <div align="center">
 
 
-## Games
+## 🐈‍⬛ Games 🐾
+
 ![Nintendo Switch](https://img.shields.io/badge/Nintendo_Switch-000000?style=for-the-badge&logo=nintendo-switch&logoColor=E60012)
 ![League of Legends](https://img.shields.io/badge/League_of_Legends-000000?style=for-the-badge&logo=leagueoflegends&logoColor=00A9E0)
 
-[Game Devlog](https://app.kunzdev.work/devlog)
+<br>
+
+🐾 &nbsp; [![Game Devlog](https://img.shields.io/badge/%F0%9F%95%B9%EF%B8%8F_Visit_Game_Devlog-%E2%86%92_app.kunzdev.work-FA5C5C?style=for-the-badge)](https://app.kunzdev.work/devlog) &nbsp; 🐾
 
 </div>
 
