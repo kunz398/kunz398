@@ -64,6 +64,8 @@ drive meaningful impact.
 ![Nintendo Switch](https://img.shields.io/badge/Nintendo_Switch-000000?style=for-the-badge&logo=nintendo-switch&logoColor=E60012)
 ![League of Legends](https://img.shields.io/badge/League_of_Legends-000000?style=for-the-badge&logo=leagueoflegends&logoColor=00A9E0)
 
+[Game Devlog](https://app.kunzdev.work/devlog)
+
 </div>
 
 <div align="center">
